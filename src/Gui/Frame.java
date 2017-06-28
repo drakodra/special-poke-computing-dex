@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pokedex;
+package Gui;
+
+import javax.swing.JFrame;
 
 /**
  *
- * @author gebruiker
+ * @author W. Kuik
  */
-public class Pokedex {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Frame extends JFrame{
+    public Frame(){
+        this.init();
+    }
+    
+    private void init(){
+        
     }
     
 }
